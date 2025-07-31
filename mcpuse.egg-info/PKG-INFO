@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: mcpuse
+Version: 0.1.1
+Provides-Extra: vllm

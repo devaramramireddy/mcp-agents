@@ -1,0 +1,10 @@
+{
+  "default_server": "local",
+  "servers": [
+    {
+      "name": "local",
+      "address": "localhost",
+      "port": 8000
+    }
+  ]
+}
