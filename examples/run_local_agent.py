@@ -2,7 +2,7 @@ import asyncio
 from mcpuse.agent import MCPAgent
 from mcpuse.client import MCPClient
 from mcpuse.model.local import TransformersLLM
-from mcpuse.utils import load_yaml
+from mcpuse.utils.utils import load_yaml
 
 async def main():
     model_cfg = load_yaml("configs/model_config.yaml")

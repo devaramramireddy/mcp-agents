@@ -1,3 +1,3 @@
 class BaseLLM:
-    def generate(self, prompt, **kwargs):
-        raise NotImplementedError("Implement 'generate' in subclass.")
+    def generate(self, input_data, **options):
+        raise NotImplementedError("Subclasses must implement the generate method.")

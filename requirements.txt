@@ -1,0 +1,16 @@
+chainlit==2.6.3
+pip install wheel
+setuptools==80.9.0
+pip install duckduckgo-search
+pip install duckduckgo-search sqlite3 pillow
+
+pip install accelerate
+
+pip install qwen-vl-utils[decord]==0.0.8
+git clone https://github.com/Dao-AILab/flash-attention
+cd flash-attention
+pip install .
+
+
+
+#export TORCH_COMPILE_BACKEND="eager"
